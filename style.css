@@ -1,0 +1,29 @@
+buttonp background:purple;
+ colour:white;
+ padding:20px
+border:0;
+border-radius:5px
+margin-bottom:10px;
+}
+table{
+    width:100:
+font: size 16px;
+}
+#about-bootcamp{
+background:purple;
+padding:10px;
+}
+.text-center{
+    text-align:center; 
+}
+
+/* 3 major ways of usinf colours in CSS*/
+/* color name:blue,red,green, yellow
+/ * hexadecimal-16
+0-9
+a-f 
+   p{color:##ff0000
+<h2 style="background-color:#ff0000;"> #ff0000"</h2>
+# about-bootcamp{
+ background: {#ffa500;/ #ffa500;}
+ 
