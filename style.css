@@ -1,13 +1,33 @@
-buttonp background:purple;
- colour:white;
- padding:20px
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+*{
+    box-sizing:border-box;
+}
+
+body{
+padding:10px;
+font-family:"open sans", sans-serif;
+background-image:url("./images/cat.jpeg");
+background-repeat:no-repeat;
+background-size: cover;
+background-position: top right;
+background-attachment: fixed;
+}
+p{
+    color:red;
+    font-size:16px;
+}
+
+button{
+     background:purple;
+ color:white;
+ padding:20px;
 border:0;
-border-radius:5px
+border-radius:5px;
 margin-bottom:10px;
 }
 table{
-    width:100:
-font: size 16px;
+    width:100px;
+font-size :16px;
 }
 #about-bootcamp{
 background:purple;
@@ -17,13 +37,53 @@ padding:10px;
     text-align:center; 
 }
 
-/* 3 major ways of usinf colours in CSS*/
-/* color name:blue,red,green, yellow
-/ * hexadecimal-16
-0-9
-a-f 
-   p{color:##ff0000
-<h2 style="background-color:#ff0000;"> #ff0000"</h2>
-# about-bootcamp{
- background: {#ffa500;/ #ffa500;}
- 
+
+
+section p {
+    text-decoration: underline;
+}
+ section >p{
+letter-spacing: 10px;
+ } 
+ section~p{
+word-spacing: 10px;
+color: yellowgreen;
+ }
+ section +p {
+    text-transform: uppercase;
+ }
+ *{
+color: orange;
+ }
+ h1{
+    color:purple;
+ }
+ input[type="email"]{
+  font-size: 30px;
+ }
+ @media screen and (max-width:576px){
+  input[type="email"]{
+    font-size:14px;
+  }
+ }
+ p{
+    color:red;
+    font-size: 16px;
+ }
+ #about-bootcamp{
+    width:450px;
+    height: 450px;
+  background:#0f347e;
+  /*padding:10px; */
+  border: 5px solid green;
+
+ }
+
+ .text-center{
+    text-align: center;
+ }
+
+ footer{
+
+ background: color #000000   
+ }
